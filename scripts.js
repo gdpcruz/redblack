@@ -1,6 +1,6 @@
 function doDemo (button) {
     var square = document.getElementById("square");
-    square.style.backgroundColor = "#fa4";
+    square.style.backgroundColor = "#e63946";
     button.setAttribute("disabled","true");
     setTimeout(clearDemo, 2000, button);
 }
